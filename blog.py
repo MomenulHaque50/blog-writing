@@ -1,9 +1,8 @@
 import os
 import openai
-import config
 
 
-openai.api_key = config.OPENAI_API_KEY
+openai.api_key = OPENAI_API_KEY
 
 
 def generateBlogTopics(prompt1):
