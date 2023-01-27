@@ -2,7 +2,7 @@ import os
 import openai
 
 
-openai.api_key = OPENAI_API_KEY
+
 
 
 def generateBlogTopics(prompt1):
