@@ -3,7 +3,11 @@ import os
 import openai
 ##OPEN API STUFF
 
-openai.OPENAI_API_KEY= os.getenv("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")
+OPENAI_API_KEY='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'
+
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+
 
 
 ## FLASK STUFF
