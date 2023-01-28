@@ -5,7 +5,7 @@ import openai
 
 
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = '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'
 
 
 
