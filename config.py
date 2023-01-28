@@ -1,9 +1,9 @@
+
 import os
-os.environ["OPENAI_API_KEY"] = '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'
-
+import openai
 ##OPEN API STUFF
-OPENAI_API_KEY = os.environ["OPENAI_API_KEY"] 
 
+openai.OPENAI_API_KEY= os.getenv("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")
 
 
 ## FLASK STUFF
